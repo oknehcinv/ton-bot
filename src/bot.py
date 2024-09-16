@@ -79,8 +79,8 @@ async def deposit_handler(message: types.Message):
     keyboard.add(button)
 
     # Send text that explains how to make a deposit into bot to user
-    await message.answer('It is very easy to top up your balance here.\n'
-                         'Simply send any amount of TON to this address:\n\n'
+    await message.answer('It is easy to top up your balance here.\n'
+                         'Send any amount of TON to this address:\n\n'
                          f'`{config.DEPOSIT_ADDRESS}`\n\n'
                          f'And include the following comment: `{uid}`\n\n'
                          'You can also deposit by clicking the button below.',
